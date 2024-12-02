@@ -1,0 +1,54 @@
+.button {
+    border: none;
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Courier New', monospace;
+    cursor: pointer;
+    background-color: #43583e;
+}
+td {
+    text-align: right;
+}
+h1 {
+    text-align: center;
+    color:#fdf0d5;
+    font-size : min(11vw, 156px);
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+    max-width: 550px;
+}
+p {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 700px){
+}
+img {
+    width: 60%;
+    max-width: 680px;
+}
+
+@media screen and (max-width: 700px){
+    h1 {
+        font-size : min(22vw, 156px);
+    }
+    table {
+        width: 90%;
+    }
+    img {
+        width: 90%;
+    }
+
+}
+
+
