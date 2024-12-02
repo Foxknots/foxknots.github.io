@@ -9,9 +9,15 @@
     font-family: 'Courier New', monospace;
     cursor: pointer;
     background-color: #43583e;
+    border-radius: 2px;
+}
+.button:hover {
+    background-color: #4f6d47;
 }
 td {
     text-align: right;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 h1 {
     text-align: center;
@@ -21,6 +27,7 @@ h1 {
     margin-bottom: 30px;
 }
 table {
+    background-color: #475b6d;
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
