@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 .button {
     border: none;
     color: white;
@@ -23,6 +25,7 @@ h1 {
     text-align: center;
     color:#fdf0d5;
     font-size : min(11vw, 156px);
+    font-family: "Libre Baskerville", serif;
     margin-top: 40px;
     margin-bottom: 30px;
 }
